@@ -12,10 +12,11 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
-import { DateCountComponent } from './date-count/date-count.component';
-import { HighlightDirectiveComponent } from './highlight-directive/highlight-directive.component';
-import { RepositoriesComponent } from './repositories/repositories.component';
-import { UsersComponent } from './users/users.component';
+import { DateCount } from './date-count.pipe/date-count.pipe.component';
+import { Highlight } from './highlight.directive/highlight.directive.component';
+import { Profile } from './profile.service/profile.service.component';
+import { RepoComponent } from './repo/repo.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -26,10 +27,11 @@ import { UsersComponent } from './users/users.component';
     NotFoundComponent,
     HighlightDirective,
     DateCountPipe,
-    DateCountComponent,
-    HighlightDirectiveComponent,
-    RepositoriesComponent,
-    UsersComponent,
+    DateCount.PipeComponent,
+    Highlight.DirectiveComponent,
+    Profile.ServiceComponent,
+    RepoComponent,
+    UserComponent,
     
 
 

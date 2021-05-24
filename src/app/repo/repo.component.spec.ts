@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HighlightDirectiveComponent } from './highlight-directive.component';
+import { RepoComponent } from './repo.component';
 
-describe('HighlightDirectiveComponent', () => {
-  let component: HighlightDirectiveComponent;
-  let fixture: ComponentFixture<HighlightDirectiveComponent>;
+describe('RepoComponent', () => {
+  let component: RepoComponent;
+  let fixture: ComponentFixture<RepoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HighlightDirectiveComponent ]
+      declarations: [ RepoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HighlightDirectiveComponent);
+    fixture = TestBed.createComponent(RepoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
