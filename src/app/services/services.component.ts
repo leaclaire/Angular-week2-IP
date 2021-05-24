@@ -1,9 +1,3 @@
-GitSearch/src/app/about.service.ts /
-@Maureenchepkirui
-Maureenchepkirui Add a form with a function that finds a profile
- History
- 1 contributor
-27 lines (24 sloc)  744 Bytes
 import { Injectable } from '@angular/core';
 import {User  } from "./user";
 import { HttpClient } from "@angular/common/http";
@@ -15,12 +9,13 @@ import { map } from 'rxjs/operators';
 
   providedIn: 'root'
 })
-export class AboutService {
+export class ProfileService {
 user : User
 private userName:string;
+
 constructor(private http: HttpClient) {
 console.log("works")
-this.userName = 'Maureenchepkirui'
+this.userName = 'Leaclaire'
    }
 getProfileData(){
   return this.http.get(`https://api.github.com/users/${this.userName}?access_token=${environment.apiKey}`)
@@ -30,4 +25,8 @@ getProfileRepos(){
   return this.http.get(`https://api.github.com/users/${this.userName}/repos?access_token=${environment.apiKey}`)
   .pipe(map(res => res));
 }
+updateProfile(userName:string){
+  this.userName = userName
+}
+
 }

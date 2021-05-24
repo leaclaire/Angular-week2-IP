@@ -14,6 +14,8 @@ import { HighlightDirective } from './highlight.directive';
 import { DateCountPipe } from './date-count.pipe';
 import { DateCountComponent } from './date-count/date-count.component';
 import { HighlightDirectiveComponent } from './highlight-directive/highlight-directive.component';
+import { RepositoriesComponent } from './repositories/repositories.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { HighlightDirectiveComponent } from './highlight-directive/highlight-dir
     DateCountPipe,
     DateCountComponent,
     HighlightDirectiveComponent,
+    RepositoriesComponent,
+    UsersComponent,
     
 
 
