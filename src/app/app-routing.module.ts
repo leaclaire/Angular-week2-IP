@@ -1,16 +1,14 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { AboutComponent } from './about/about.component';
-import { ProfileComponent } from './profile/profile.component';
-import { NotFoundComponent } from './not-found/not-found.component';
-
+import { RouterModule, Routes } from '@angular/router';
+import{UserprofileComponent} from './userprofile/userprofile.component';
+import{RepositoriesComponent} from './repositories/repositories.component';
+import{NavbarComponent} from './navbar/navbar.component';
 
 const routes: Routes = [
-  { path: 'profile', component: ProfileComponent},
-  { path: 'about', component: AboutComponent},
-   { path: '', redirectTo:"/about", pathMatch:"full"},
-   { path:'**', component:NotFoundComponent},
-     
+{ path: 'userprofile', component: UserprofileComponent},
+{ path: 'repositories', component: RepositoriesComponent},
+{ path: '', redirectTo:"/userprofile", pathMatch:"full"},
+
 ];
 
 @NgModule({
