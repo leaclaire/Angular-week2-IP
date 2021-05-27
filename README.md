@@ -24,8 +24,8 @@ View [live](https://leaclaire.github.io/Angular-week2-IP/)
 This project is under the  [MIT](LICENSE) licence
 License format:
  MIT License
-hamida-mstafa/fev-band
-my fev music band
+leaclaire/Angular-week2-IP
+gitsearch
 Website
 https://leaclaire.github.io/Angular-week2-IP//
 Language
