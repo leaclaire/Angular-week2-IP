@@ -1,8 +1,8 @@
 # Gitsearch
 ## Author
-Hamida Mstafa
+leah jepkorir
 ## Description
-Its a website that expalins more about my fev music band
+this is an application that allowa users to access github,search the projects done and save it
 ### Prerequisites
 You need to have git installed
 You can install it with the following command in your terminal
@@ -10,7 +10,7 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone https://github.com/hamida-mstafa/fev-band
+1. Use this command to clone `$ git clone gh repo clone leaclaire/Angular-week2-IP
 1. This will clone the repositoty into your local folder
 1. _Enjoy :)_
 ### Technologies Used
