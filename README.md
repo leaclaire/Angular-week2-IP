@@ -19,7 +19,7 @@ To access this project on your local files, you can clone it using these steps
 1. JavaScript
 1. Git
 ### Live Site
-View [live](https://hamida-mstafa.github.io/fev-band/)
+View [live](https://leaclaire.github.io/Angular-week2-IP/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
 License format:
@@ -27,7 +27,7 @@ License format:
 hamida-mstafa/fev-band
 my fev music band
 Website
-https://hamida-mstafa.github.io/fev-band/
+https://leaclaire.github.io/Angular-week2-IP//
 Language
 HTML
 
